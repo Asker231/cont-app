@@ -1,0 +1,16 @@
+.todo{
+    display: flex;
+    gap: 5px;
+
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}.todo>input{
+    padding: 2px 5px;
+    font-size: 16px;
+
+}.todo>button{
+    padding: 2px 6px;
+    font-size: 16px;
+
+}

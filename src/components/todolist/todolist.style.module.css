@@ -1,0 +1,23 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-height: 400px;
+    overflow: scroll;
+
+}.todoitem{
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    
+
+}.outs:hover{
+    color: red;
+    cursor: pointer;
+}.todoitem>input{
+     text-decoration: line-through;
+}
