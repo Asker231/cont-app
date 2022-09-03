@@ -1,0 +1,12 @@
+.entrance{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    z-index: 1;
+    justify-content: center;
+    color: aliceblue;
+}.entrance>a{
+    color: blueviolet;
+    font-size: 18px;
+}
