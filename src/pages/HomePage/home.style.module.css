@@ -1,0 +1,11 @@
+.out{
+    max-width: 150px;
+    height: 50px;
+    color: aliceblue;
+    position: fixed;
+    right: 8px;
+    top: -4px;
+    font-size: 30px;
+
+}
+

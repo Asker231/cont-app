@@ -13,10 +13,14 @@ const userSlice = createSlice({
            state.id = action.payload.id;
            state.token = action.payload.token;
            console.log(action.payload);
+        },removeUser(state){
+            state.email = null;
+            state.id=null;
+            state.token = null;
         }
     }
 })
 
 
-export const {addUser} = userSlice.actions;
+export const {addUser,removeUser} = userSlice.actions;
 export default userSlice.reducer;

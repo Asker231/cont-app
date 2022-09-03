@@ -6,7 +6,131 @@
     z-index: 1;
     justify-content: center;
     color: aliceblue;
+    position: relative;
 }.entrance>a{
     color: blueviolet;
     font-size: 18px;
 }
+.item_one{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(92, 76, 238, 0.447);
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 2s;
+    animation: go 6s linear infinite;
+ }
+ @keyframes go{
+    0%{
+     top: 22%;
+     left: 23%;
+     width:180px;
+     height: 180px;
+    }50%{
+     top:10%;
+ 
+    }100%{
+     top:-6%;
+     opacity: 0.5;
+    }
+ }
+ 
+ .item_two{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(42, 165, 81, 0.219);
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 3s;
+    animation: so 5s linear infinite;
+ 
+ }
+ @keyframes so{
+   0%{
+    top: 30%;
+    left: 53%;
+    width:180px;
+    height: 180px;
+   }50%{
+    top:10%;
+ 
+   }100%{
+    top:-6%;
+    opacity: 0.5;
+   }
+ }
+ 
+ .item_tree{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(140, 38, 168, 0.195);
+    top: 44%;
+    right: 13%;
+    z-index: -1;
+    border-radius: 50%;
+ 
+    animation: co 8s linear infinite;
+ }
+ @keyframes co{
+   0%{
+    top: 42%;
+    right: 23%;
+    width:180px;
+    height: 180px;
+   }50%{
+    top:10%;
+ 
+   }100%{
+    top:-6%;
+    opacity: 0.5;
+   }
+ }
+ 
+ 
+ .item_for{
+     width: 50px;
+    height: 50px;
+    background-color: rgba(42, 77, 165, 0.167);
+    top: 42%;
+    left: 33%;
+    position: absolute;
+    z-index: -1; 
+    border-radius: 50%;
+    transition: 2s;
+    animation: to 8s linear infinite;
+ 
+ }
+ @keyframes to{
+   0%{
+    top: 42%;
+    left: 43%;
+    width:180px;
+    height: 180px;
+   }50%{
+    top:10%;
+    left: 48%;
+   }100%{
+    top:-6%;
+    opacity: 0.5;
+   }
+ }
+ 
+ .item_five{
+ width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(165, 153, 42, 0.2);
+    top: 103px;
+    left: 210px;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 2s;
+    animation: go 4s linear infinite;
+ }
